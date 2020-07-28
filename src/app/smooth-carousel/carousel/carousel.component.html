@@ -1,0 +1,9 @@
+<div id="sc-items-wrapper" style="position: relative;">
+  <div id="sc-items" appWheel>
+    <div class="sc-item" *ngFor="let image of images">
+      <img [src]="image"/>
+    </div>
+  </div>
+  <a class="sc-prev" (click)="prevItem()">&#10094;</a>
+  <a class="sc-next" (click)="nextItem()">&#10095;</a>
+</div>
