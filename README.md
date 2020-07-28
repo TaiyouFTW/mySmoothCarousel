@@ -1,27 +1,50 @@
-# MySmoothCarousel
+# MySmoothCarousel - [Live on]https://taiyouftw.github.io/mySmoothCarousel/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+Smooth and responsive carousel
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* [Node](https://nodejs.org/en/)
+* [Angular CLI](https://cli.angular.io)
+* [Angular](https://angular.io)
+* [Angular CLI ghpages](https://www.npmjs.com/package/angular-cli-ghpages)
 
-## Build
+### Installing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Fork or clone the project.
 
-## Running unit tests
+Install all node_modules packages using:
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run
+```
+ng serve
+```
 
-## Running end-to-end tests
+## Deployment
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+For production build you can use:
+```
+npm run prod
+```
 
-## Further help
+Remember to update the `"prod": "ng build --prod --base-href <my-url>",` in package.json
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Built With
+
+* [Angular](https://angular.io)
+* [Angular CLI](https://cli.angular.io)
+
+## Authors
+
+* **Guilherme Moreira** - *Initial work* - [TaiyouFTW](https://github.com/TaiyouFTW)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
