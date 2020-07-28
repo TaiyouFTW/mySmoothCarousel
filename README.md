@@ -1,4 +1,4 @@
-# MySmoothCarousel - [Live on]https://taiyouftw.github.io/mySmoothCarousel/)
+# MySmoothCarousel - [Live on](https://taiyouftw.github.io/mySmoothCarousel/)
 
 Smooth and responsive carousel
 
